@@ -1,3 +1,9 @@
+#Installing package and bringing in library
+
+devtools::install_github("abresler/nbastatR")
+
+library(nbastatR)
+
 #Usage TS% Graphs
 
 first_table <- bref_players_stats(seasons = 2020, tables = c("advanced", "totals"),
